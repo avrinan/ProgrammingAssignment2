@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-## x is the returned value of the makeCachedMatrix
+## x is the return value of the makeCachedMatrix
 cacheSolve <- function(x, ...) {
     ## get the inverse of x sotred in a different environment from current
     inv <- x$getinv()
