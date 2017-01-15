@@ -1,8 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## Write a short comment describing this function
-
 ## x is an invertible matrix
 ## makeCacheMatrix is a list containing functions:
 ##  - one set function to store the matrix in an environment different from current
@@ -24,7 +22,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
 ## x is the return value of the makeCachedMatrix
 cacheSolve <- function(x, ...) {
     ## get the inverse of x sotred in a different environment from current
